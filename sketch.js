@@ -28,7 +28,7 @@ function draw() {
 }
 
 function readStock(data){
-  foodS=data.val
+  foodS=data.val();
 }
 
 function writeStock(x){
